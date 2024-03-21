@@ -76,6 +76,7 @@ input {
   gap: 1.2rem;
   justify-content: center;
   align-content: start;
+  white-space: normal;
 }
 .list li {
   display: flex;
@@ -145,8 +146,9 @@ input[type="checkbox"] {
   }
   .list ul {
     width: 90%;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
+    white-space: normal;
   }
   .stats {
     font-size: 1rem;
@@ -168,8 +170,9 @@ input[type="checkbox"] {
   }
   .list ul {
     width: 90%;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
+    white-space: normal;
   }
   .stats {
     font-size: 1.2rem;
